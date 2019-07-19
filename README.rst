@@ -22,7 +22,7 @@ If you want to use the command line utility you may do so easily:
 
 .. code:: bash
 
-    sintax.convert -i raw.csv -o benchmark.json
+    sintax.convert --criterion <CRITERION_PATH> --gbenchmark-json=benchmark.json
 
 
 Installation
