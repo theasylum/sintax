@@ -68,7 +68,7 @@ def _build_results(path, *, aggregate=False):
             }
 
 
-def reader(path, aggregate=False):
+def reader(path, *, aggregate=False):
     """
     Yields results for reach of the raw.csv files found in the path provided.
     Unfortunately the files are not collected together into a single location
