@@ -1,0 +1,11 @@
+.coverage
+.tox
+.venv
+venv
+pip-wheel-metadata/
+build
+dist
+coverage.xml
+.coverage.*
+src/sintax.egg-info
+junit.xml

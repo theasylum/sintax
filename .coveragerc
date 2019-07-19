@@ -1,0 +1,14 @@
+[run]
+parallel = true
+source =
+    sintax
+
+[paths]
+source =
+    src/sintax
+    */src/sintax
+    */site-packages/sintax
+
+[report]
+show_missing = true
+precision = 2

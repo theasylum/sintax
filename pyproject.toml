@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+target-version = ["py35", "py36", "py37"]
+exclude = '''
+/(
+  \.git
+  | .tox
+  | build
+  | dist
+)/
+'''
