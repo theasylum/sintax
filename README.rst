@@ -6,7 +6,7 @@ files into Google's Benchmark JSON format. It also allows you to read in Google
 JSON formatted files, and iterate over the list of results, for further
 post-processing.
 
-Python versions supported: 3.5, 3.6, 3.7
+Python versions supported: 3.6, 3.7
 
 Usage
 ~~~~~
